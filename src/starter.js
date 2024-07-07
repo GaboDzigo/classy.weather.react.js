@@ -52,6 +52,6 @@ async function getWeather(location) {
     const weatherData = await weatherRes.json();
     console.log(weatherData.daily);
   } catch (err) {
-    console.err(err);
+    // console.err(err);
   }
 }
